@@ -22,30 +22,30 @@
                 <h1>Let’s Help Those Who Are
                 More In Need</h1>
                 <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
-                <a class="btn" href="#">Donate Now</a>
+                <a class="btn" href="#donate">Donate Now</a>
             </div>
         </div>
     </header>
     <!--header End-->
 
     <!--donate-today start-->
-    <section class="donate-today">
+    <section class="donate-today" id="donate">
         <div class="donate-container">
             <div class="donate-content">
                 <h2>Donate Today</h2>
                 <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
             </div>
             <div class="amount-card">
-                <div class="amount">100Tk</div>
-                <div class="amount tk200">200Tk</div>
-                <div class="amount">300Tk</div>
-                <div class="amount">400Tk</div>
-                <div class="amount">500Tk</div>
+                <div class="amount"><a href="#type">100Tk</a></div>
+                <div class="amount tk200"><a href="#type">200Tk</a></div>
+                <div class="amount"><a href="#type">300Tk</a></div>
+                <div class="amount"><a href="#type">400Tk</a></div>
+                <div class="amount"><a href="#type">500Tk</a></div>
             </div>
             <div class="custom-amount">
-                <input list="amount" type="text" placeholder="Other Amount (Taka)">
+                <input id="type" list="amount" type="text" placeholder="Other Amount (Taka)">
                 <datalist id="amount">
-                    <option value="100"></option>
+                    <option id="type" value="100000"></option>
                     <option value="1000"></option>
                     <option value="200"></option>
                     <option value="500"></option>
@@ -58,7 +58,7 @@
                     <option value="465655"></option>
                     <option value="10M"></option>
                 </datalist>
-                <a class="btn " href="#">Donate Now</a>
+                <a class="btn" target="_blank" href="https://www.savethechildren.org/us/where-we-work/bangladesh">Donate Now</a>
             </div>
         </div>
     </section>
