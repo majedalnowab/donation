@@ -161,4 +161,44 @@ p {
 .education {
     background:rgba(255, 20, 89, .4);
 }
+
+
+/*subscribe*/
+.subscribe-section {
+    padding:40px 0;
+}
+.subscribe-now.call-to {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:60px 0;
+    background:rgba(255, 98, 5, .5);
+    border-radius:4px;
+}
+.subscribe-now input {
+    padding:7px 20px;
+}
+.subscribe-now input[type="email"]{
+    border:5px solid #D9D9D9;
+    background:#D9D9D9;
+    width:35%;
+    border-radius:4px 0 0 4px;
+}
+.subscribe-now .btn {
+    margin:0;
+    border:0;
+    border-radius:0;
+    padding:12px 45px;
+    font-size:14px;
+    border-radius:0 4px 4px 0;
+}
+.footer {
+    text-align:center;
+    padding:40px;
+    background:black;
+    color:white;
+}
+.footer span {
+    color:#E65050;
+}
 /*-------------section css--------------*/
