@@ -1,0 +1,71 @@
+/*-------------gloobal css--------------*/
+body {
+    font-family: 'Alegreya', serif;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+h1{
+    font-size:58px;
+}
+h2 {
+    font-size:48px;
+}
+h3 {
+    font-size:32px;
+}
+h4 {
+    font-size:26px;
+}
+h5 {
+    font-size:22px;
+}
+a {
+    text-decoration:none;
+}
+ul {
+    list-style:none;
+}
+img {
+    width:100%;
+}
+p {
+    font-size:19px;
+    letter-spacing:.5px;
+    line-height:1.4em;
+}
+/*-------------gloobal css--------------*/
+
+/*-------------class css--------------*/
+.btn {
+    background:#FF5959;
+    padding:10px 20px;
+    color:white;
+    font-size:22px;
+    margin:20px;
+    display:inline-block;
+    border-radius:6px;
+}
+/*-------------class css--------------*/
+
+/*-------------section css--------------*/
+.header {
+    background:url("images/main-banner.jpg") no-repeat top center / cover;
+    color:white;
+}
+.overlay {
+    background:rgba(0,0,0,0.7);
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.container {
+    width:60%;
+    text-align:center;
+    padding:30px;
+}
+/*-------------section css--------------*/
