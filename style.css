@@ -17,7 +17,8 @@ h3 {
     font-size:32px;
 }
 h4 {
-    font-size:26px;
+    font-size:24px;
+    margin:10px auto;
 }
 h5 {
     font-size:22px;
@@ -48,6 +49,12 @@ p {
     display:inline-block;
     border-radius:6px;
 }
+.call-to {
+    width:60%;
+    text-align:center;
+    padding:30px;
+    margin:auto;
+}
 /*-------------class css--------------*/
 
 /*-------------section css--------------*/
@@ -63,7 +70,7 @@ p {
     justify-content:center;
 
 }
-.container {
+.header .container {
     width:60%;
     text-align:center;
     padding:30px;
@@ -71,7 +78,7 @@ p {
 /*donate today*/
 .donate-today {
     text-align:center;
-    padding:100px;
+    padding:100px 0 20px;
 }
 .donate-container{
     width:70%;
@@ -120,5 +127,38 @@ p {
     border-right:0;
     border-left:0;
     border-radius:15px;
+}
+
+/*donate plan*/
+.donate-plan {
+    padding-bottom:50px;
+}
+.donate-card {
+    width:75%;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.card {
+    width:32%;
+    padding:60px 20px;
+    text-align:left;
+    border-radius:4px;
+}
+.card img {
+    width:50px;
+}
+.card p {
+    font-size:14px;
+}
+.food {
+    background:rgba(255, 89, 89, .3);
+}
+.family {
+    background:rgba(255, 98, 5, .5);
+}
+.education {
+    background:rgba(255, 20, 89, .4);
 }
 /*-------------section css--------------*/
