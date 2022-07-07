@@ -1,4 +1,4 @@
-/*-------------gloobal css--------------*/
+
 body {
     font-family: 'Inter', sans-serif;
 }
@@ -9,6 +9,178 @@ body {
     margin:0;
     padding:0;
     box-sizing:border-box;
+}
+
+a {
+    text-decoration:none;
+}
+.button {
+    background:#009FFE;
+    padding:10px 20px;
+    color:white;
+    font-size:18px;
+    margin:20px;
+    display:inline-block;
+    border-radius:6px;
+    cursor:pointer;
+    text-transform:uppercase;
+}
+.button:hover {
+    box-shadow:0 0 20px;
+}
+.call-to {
+    width:60%;
+    text-align:center;
+    padding:30px;
+    margin:auto;
+}
+
+.banner {
+    background:url("images/donation11.jpg") no-repeat top center / cover fixed;
+    color:white;
+}
+.overlay {
+    background:rgba(0,0,0,0.7);
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.banner .container {
+    width:60%;
+    text-align:center;
+    padding:30px;
+}
+.donate-today {
+    text-align:center;
+    padding:100px 0;
+}
+.donate-container{
+    width:70%;
+    margin:auto;
+}
+.donate-content {
+    padding:20px;
+}
+.payment-card {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-flow:wrap;
+    margin:30px 0;
+}
+
+img {
+    width:100%;
+}
+
+
+.payment {
+    width:18%;
+    height:115px;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:30px;
+    background:#FAFAFA;
+    font-weight:bold;
+    border-radius:5px;
+    box-shadow:0 0 3px;
+    color:#5B5B5B;
+}
+.payment:hover {
+    box-shadow:0 0 10px;
+}
+.taka {
+    border:3px solid #FF5959;
+    background:rgba(255, 89, 89, .3);
+    color:#FF5959;
+}
+.other {
+    width:70%;
+    margin:auto;
+}
+.other input{
+    display:block;
+    width: 100%;
+    text-align:center;
+    padding:10px 0;
+    font-size:20px;
+    border-top:0;
+    border-right:0;
+    border-left:0;
+    border-bottom:2px solid gray;
+    margin:auto;
+}
+
+.donate-plan {
+    background:url("images/donation10.jpg") no-repeat center / cover fixed;
+    height:120vh;
+    color:white;
+}
+.donate-plan .container {
+    height:120vh;
+    width:100%;
+    background:rgba(0,0,0,0.5);
+    padding:50px 0;
+}
+.donate-card {
+    width:75%;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.donate-plan i {
+    color:white;
+}
+.card {
+    width:32%;
+    padding:60px 20px;
+    text-align:left;
+    border-radius:4px;
+    background:rgba(45, 27, 213, 0.43);
+    color:white;
+}
+.card:hover {
+    box-shadow:0 0 10px;
+}
+.card a {
+    margin-top:10px !important;
+    display:inline-block;
+    color:white;
+    font-weight:500;
+    cursor:pointer;
+}
+ul {
+    padding:20px;
+}
+ul li {
+    padding:3.5px;
+    color:white;    
+}
+.card a:hover {
+    text-decoration:underline;
+    color:blue;
+}
+.card img {
+    width:50px;
+    background:white;
+    border-radius:10px;
+    padding:10px;
+}
+.card p {
+    font-size:14px;
+    padding:10px 0;
+    color:white;
+    line-height:1.5em;
+}
+p {
+    font-size:19px;
+    letter-spacing:.5px;
+    line-height:1.4em;
 }
 h1{
     font-size:58px;
@@ -26,230 +198,41 @@ h4 {
 h5 {
     font-size:22px;
 }
-a {
-    text-decoration:none;
-}
-ul {
-    list-style:none;
-}
-img {
-    width:100%;
-}
-p {
-    font-size:19px;
-    letter-spacing:.5px;
-    line-height:1.4em;
-}
-
-input[type="text"]:focus,
-input[type="email"]:focus {
-    transition:.5s;
-    width:100%;
-    box-shadow:0 0 10px;
-    border:none;
-    border-radius:20px;
-
-}
-input[type="text"]:hover,
-input[type="email"]:hover {
-    width:100%;
-    transition:.5s;
-    border-radius:0;
-}
-/*-------------gloobal css--------------*/
-
-/*-------------class css--------------*/
-.btn {
-    background:#FF5959;
-    padding:10px 20px;
-    color:white;
-    font-size:22px;
-    margin:20px;
-    display:inline-block;
-    border-radius:6px;
-    cursor:pointer;
-}
-.btn:hover {
-    box-shadow:0 0 20px;
-}
-.call-to {
-    width:60%;
-    text-align:center;
-    padding:30px;
+.donater .container {
+    width:90%;
     margin:auto;
-}
-/*-------------class css--------------*/
-
-/*-------------section css--------------*/
-.header {
-    background:url("images/main-banner.jpg") no-repeat top center / cover fixed;
-    color:white;
-}
-.overlay {
-    background:rgba(0,0,0,0.7);
-    height:100vh;
     display:flex;
-    align-items:center;
-    justify-content:center;
-
+    align-items:cneter;
+    justify-content:space-around;
+    padding:100px 0;
 }
-.header .container {
-    width:60%;
-    text-align:center;
-    padding:30px;
-}
-/*donate today*/
-.donate-today {
-    text-align:center;
-    padding:100px 0 20px;
-}
-.donate-container{
-    width:70%;
-    margin:auto;
-}
-.donate-content {
-    padding:20px;
-}
-.amount-card {
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    flex-flow:wrap;
-    margin:30px 0;
-}
-.amount {
-    width:18%;
-    height:115px;
-    text-align:center;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:30px;
-    background:#FAFAFA;
-    font-weight:bold;
-    border-radius:5px;
-    box-shadow:0 0 3px;
-    color:#5B5B5B;
-}
-.amount:hover {
-    box-shadow:0 0 10px;
-}
-.tk200 {
-    border:3px solid #FF5959;
-    background:rgba(255, 89, 89, .3);
-    color:#FF5959;
-}
-.custom-amount {
-    width:70%;
-    margin:auto;
-}
-.custom-amount input{
-    display:block;
+.donater .container .half {
     width:50%;
-    text-align:center;
-    padding:10px 0;
-    font-size:20px;
-    border-top:0;
-    border-right:0;
-    border-left:0;
-    border-bottom:2px solid pink;
-    border-radius:50%;
-    margin:auto;
 }
-
-/*donate plan*/
-.donate-plan {
-    padding-bottom:50px;
+.donater .container p {
+    padding-top:50px;
 }
-.donate-card {
-    width:75%;
-    margin:auto;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-}
-.card {
-    width:32%;
-    padding:60px 20px;
-    text-align:left;
-    border-radius:4px;
-}
-.card:hover {
-    box-shadow:0 0 10px;
-}
-.card a {
-    margin-top:10px !important;
-    display:inline-block;
-    color:black;
-    font-weight:500;
-    cursor:pointer;
-}
-.card a:hover {
-    text-decoration:underline;
-    color:blue;
-}
-.card img {
-    width:50px;
-}
-.card p {
-    font-size:14px;
-    padding:10px 0;
-}
-.food {
-    background:rgba(39, 41, 245, 0.4);
-}
-.family {
-    background:rgba(255, 98, 5, .5);
-}
-.education {
-    background:rgba(39, 41, 245, 0.4);
-}
-/*call to action*/
-.call-to-action {
-    background:url("images/footer-banner.jpg") no-repeat top center / cover fixed;
-}
-.call-to-action .container {
-    padding:80px;
-    background:rgba(0,0,0,0.5);
-    text-align:center;
-    color:white;
-}
-.call-to-action .content {
-    width:70%;
-    margin:auto;
-    line-height:5em;
-}
-.call-to-action i {
-    font-size:50px;
-    color:pink;
-
-}
-.call-to-action img {
-    width:50px;
-}
-
-/*subscribe*/
-.subscribe-section {
+.singin-section {
     padding:40px 0;
 }
-.subscribe-now.call-to {
+.singin-now.call-to {
     display:flex;
     align-items:center;
     justify-content:center;
     padding:60px 0;
-    background:rgba(255, 98, 5, .5);
+    background:rgba(222, 39, 245, 0.43);
     border-radius:4px;
 }
-.subscribe-now input {
+.singin-now input {
     padding:7px 20px;
 }
-.subscribe-now input[type="email"]{
+.singin-now input[type="email"]{
     border:5px solid #D9D9D9;
     background:#D9D9D9;
     width:35%;
     border-radius:4px 0 0 4px;
 }
-.subscribe-now .btn {
+.singin-now .button {
     margin:0;
     border:0;
     border-radius:0;
@@ -257,14 +240,15 @@ input[type="email"]:hover {
     font-size:14px;
     border-radius:0 4px 4px 0;
 }
-/*footer section*/
 .footer {
     text-align:center;
     padding:40px;
-    background:black;
+    background:rgba(45, 27, 213, 0.43);
     color:white;
 }
 .footer span {
-    color:#E65050;
+    color:black;
 }
-/*-------------section css--------------*/
+.footer small {
+    color:white;
+}
