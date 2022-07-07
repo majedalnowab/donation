@@ -1,6 +1,6 @@
 /*-------------gloobal css--------------*/
 body {
-    font-family: 'Alegreya', serif;
+    font-family: 'Inter', sans-serif;
 }
 *:focus {
     outline:none;
@@ -180,28 +180,53 @@ input[type="email"]:hover {
 .card a {
     margin-top:10px !important;
     display:inline-block;
-    color:blue;
+    color:black;
+    font-weight:500;
     cursor:pointer;
 }
 .card a:hover {
     text-decoration:underline;
+    color:blue;
 }
 .card img {
     width:50px;
 }
 .card p {
     font-size:14px;
+    padding:10px 0;
 }
 .food {
-    background:rgba(255, 89, 89, .3);
+    background:rgba(39, 41, 245, 0.4);
 }
 .family {
     background:rgba(255, 98, 5, .5);
 }
 .education {
-    background:rgba(255, 20, 89, .4);
+    background:rgba(39, 41, 245, 0.4);
 }
+/*call to action*/
+.call-to-action {
+    background:url("images/footer-banner.jpg") no-repeat top center / cover fixed;
+}
+.call-to-action .container {
+    padding:80px;
+    background:rgba(0,0,0,0.5);
+    text-align:center;
+    color:white;
+}
+.call-to-action .content {
+    width:70%;
+    margin:auto;
+    line-height:5em;
+}
+.call-to-action i {
+    font-size:50px;
+    color:pink;
 
+}
+.call-to-action img {
+    width:50px;
+}
 
 /*subscribe*/
 .subscribe-section {
